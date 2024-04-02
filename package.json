@@ -23,7 +23,7 @@
     "sass": "^1.58.1",
     "serve": "*",
     "socket.io-client": "^4.6.0",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^3.5.2"
   },
   "scripts": {
     "start": "react-scripts start",
