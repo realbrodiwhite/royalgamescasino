@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
   "short_name": "Royal Games",
   "name": "Royal Games Social Casino",
+=======
+  "short_name": "React App",
+  "name": "Create React App Sample",
+>>>>>>> d32eb963 (init React :tada:)
   "icons": [
     {
       "src": "favicon.ico",
@@ -16,11 +21,14 @@
       "src": "logo512.png",
       "type": "image/png",
       "sizes": "512x512"
+<<<<<<< HEAD
     },
     {
       "src": "favicon.svg",
       "type": "image/svg+xml",
       "sizes": "any"
+=======
+>>>>>>> d32eb963 (init React :tada:)
     }
   ],
   "start_url": ".",
