@@ -1,0 +1,32 @@
+// .vscode/settings.json
+{
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.preferences.importModuleSpecifierEnding": "minimal",
+  "typescript.suggest.autoImports": true,
+  "javascript.suggest.autoImports": true,
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "path-intellisense.mappings": {
+    "@": "${workspaceRoot}/src",
+    "@components": "${workspaceRoot}/src/components",
+    "@game": "${workspaceRoot}/src/components/game",
+    "@slot": "${workspaceRoot}/src/components/slot",
+    "@ui": "${workspaceRoot}/src/components/ui",
+    "@hooks": "${workspaceRoot}/src/hooks",
+    "@utils": "${workspaceRoot}/src/utils",
+    "@types": "${workspaceRoot}/src/types",
+    "@store": "${workspaceRoot}/src/store",
+    "@services": "${workspaceRoot}/src/services",
+    "@context": "${workspaceRoot}/src/context",
+    "@config": "${workspaceRoot}/src/config",
+    "@styles": "${workspaceRoot}/src/styles",
+    "@assets": "${workspaceRoot}/public/assets"
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  }
+}
