@@ -21,7 +21,7 @@ const assetsUrl = `/data/${gameId}/`;
 game.addResource([
   {
     name: 'controls-spritesheet',
-    source: `/data/controls-spritesheet.json`,
+    source: `./src/data/games/controls-spritesheet.json`,
   },
   {
     name: 'background',
@@ -37,7 +37,7 @@ game.addResource([
   },
   {
     name: 'coin-animation-spritesheet',
-    source: `/data/coin-animation-spritesheet.json`,
+    source: `./src/data/games/coin-animation-spritesheet.json`,
   },
   {
     name: 'logo-spritesheet',

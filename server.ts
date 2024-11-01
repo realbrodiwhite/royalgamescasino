@@ -6,8 +6,8 @@ import { Server as SocketIOServer, Socket } from 'socket.io';
 import sqlite3 from 'sqlite3';
 import md5 from 'md5';
 import { v1 as uuidv1, v4 as uuidv4 } from 'uuid';
-import { rockClimberData } from './src/data/games/rock-climber';
-import { egyptianTreasuresData } from './src/data/games/egyptian-treasures';
+import { rockClimberData } from './src/data/games/rock-climber/';
+import { egyptianTreasuresData } from './src/data/games/egyptian-treasures/egyptian-treasures.js';
 
 // Interfaces
 interface User {
